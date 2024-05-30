@@ -1,0 +1,502 @@
+
+#margin{
+  margin: 0;
+  padding: 0;
+}
+/* navbar start */
+.navbar ul li a {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: serif;
+      }
+
+  .navbar-nav .nav-item:hover .nav-link 
+  {
+    color: orange;
+    text-decoration: underline;
+ 
+  }
+   .navbar-nav .active {
+      color: orange !important;
+      text-decoration: underline;
+  }
+  /* navbar end */
+
+  /* service start */
+.service h1{
+  font-size: 40px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.service p{
+  font-size: 18px;
+}
+
+@media (max-width: 250px){
+  .service h1{
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+  }
+
+  .service p{
+    font-size: 10px;
+  }
+}
+  /* service end */
+
+
+  /* popular collection start */
+.popular{
+  background-image: url(img/Carat-Gallery-BG.jpg);
+  background-repeat: no-repeat;
+  
+}
+
+.popular h1{
+  padding-top: 50px;
+  font-size: 50px;
+  font-family: serif;
+  font-weight: 800;
+}
+
+.popular .populer-item img{
+padding-top: 50px;
+height: 400px;
+width: 100%;
+border-radius: 10px 10px;
+}
+
+.popular .populer-item h2{
+  font-weight: bold;
+  font-family: cursive;
+}
+
+@media (max-width: 300px){
+  .popular h1{
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: serif;
+    font-weight: 800;
+  }
+}
+  /* popular collection end */
+
+  /* why choose us start */
+.why{
+  padding-top: 50px;
+}
+
+.why h1{
+  font-family: serif;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.why .why-item img{
+  height: 200px;
+  width: 100%;
+}
+
+.why .why-item b{
+  font-size: 30px;
+}
+
+.why .why-item p{
+  font-size: 16px;
+  font-family: serif;
+}
+
+  /* why choose us end */
+
+
+  /* enjoy start */
+  .enjoy{
+    background-image: url(img/Carat-Gallery-BG.jpg);
+    background-repeat: no-repeat;
+    
+  }
+
+  .enjoy img{
+    padding-top: 50px;
+    height: 600px;
+    width: 100%;
+  }
+
+  .enjoy h1{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 60px;
+    font-family: serif;
+  }
+
+  .enjoy p{
+font-size: 20px;
+  }
+
+  @media (max-width: 350px){
+    .enjoy h1{
+      padding-top: 100px;
+      padding-bottom: 40px;
+      font-size: 30px;
+      font-family: serif;
+    }
+  }
+  /* enjoy end */
+
+  /* smiles start */
+.smile{
+  background-image: url(img/rings.png);
+  background-position-x: center;
+  height: 600px;
+  color: white;
+}
+
+.smile h1{
+  font-size: 60px;
+  font-family: serif;
+  padding-top: 100px;
+}
+ .smile p{
+  font-size: 20px;
+ }
+
+ .smile .btn{
+  font-size: 16px;
+  color: black;
+ }
+
+ @media (max-width: 350px){
+  .smile h1{
+    font-size: 30px;
+    font-family: serif;
+    padding-top: 100px;
+  }
+ }
+  /* smiles end */
+
+  /* international start */
+
+  .international{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+.international p{
+  font-size: 18px;
+}
+  /* international end */
+
+  /* handmade start */
+.handmade{
+  background-image: url(img/Carat-Gallery-BG.jpg);
+}
+.handmade img{
+  padding-top: 50px;
+  height: 400px;
+  width: 100%;
+}
+
+.handmade h1{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 60px;
+  font-family: serif;
+}
+
+.handmade p{
+  font-size: 20px;
+}
+
+.handmade .btn{
+  color: black;
+  font-size: 20px;
+  background-color: orangered;
+}
+
+@media (max-width: 350px){
+  .handmade h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: serif;
+  }
+}
+  /* handmade end */
+
+  /* contact start */
+.contact{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.contact h1{
+  font-size: 60px;
+  font-family: serif;
+}
+.contact a{
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.contact a:hover{
+  color: navy;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.contact i{
+  padding-top: 50px;
+}
+
+@media (max-width: 300px){
+  .contact h1{
+    font-size: 30px;
+    font-family: serif;
+  }
+
+  .contact a{
+    color: navy;
+    text-decoration: none;
+    font-size: 20px;
+  }
+}
+  /* contact end */
+
+  /* footer start */
+.footer{
+  background-color: black;
+  color: white;
+}
+
+.footer h2{
+  padding-top: 50px;
+  font-family: serif;
+  font-weight: bolder;
+}
+
+.footer p{
+  font-size: 18px;
+}
+
+.footer a{
+  padding-top: 10px;
+  color: white;
+}
+
+.footer a:hover{
+  padding-top: 10px;
+  color: orangered;
+  font-size: 16px;
+  scale: 0.9;
+}
+
+.copyright{
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+  /* footer end */
+
+  /* about start */
+  .about-bg{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    min-height: 300px;
+    color: white;
+    text-align: center;
+  }
+
+  .about-bg h1{
+    font-size: 50px;
+    font-family: serif;
+    font-weight: bolder;
+    padding-top: 80px;
+  }
+
+  @media (max-width: 300px){
+    .about-bg h1{
+      font-size: 30px;
+      font-family: serif;
+      font-weight: bolder;
+      padding-top: 80px;
+    }
+
+    .about-bg{
+      background-image: url(img/background.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      min-height: 200px;
+      color: white;
+      text-align: center;
+    }
+  }
+  /* about end */
+
+  /* banner start */
+.banner{
+  padding-top: 80px;
+}
+   /* banner end */
+
+   /* propriter start */
+.propriter{
+  background-image: url(img/Carat-Gallery-BG.jpg);
+  margin-top: 50px;
+}
+
+.propriter h2{
+  padding-top: 50px;
+  font-size: 40px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.propriter p{
+  padding-top: 120px;
+  font-size: 18px;
+}
+
+.propriter h3{
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.propriter h4{
+  text-align: center;
+  font-family: serif;
+  padding-bottom: 30px;
+}
+   /* propriter end */
+
+   /* club start */
+.bg-dark{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.bg-dark h2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-family: serif;
+}
+
+.bg-dark p{
+font-size: 18px;
+padding-bottom: 50px;
+opacity: 0.9;
+}
+   /* club end */
+
+   /* scheme start */
+.scheme{
+  background-color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.scheme h1{
+  font-size: 50px;
+  font-family: serif;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.scheme .card{
+  background-color: black;
+  opacity: 0.9;
+  margin-bottom: 20px;
+  min-height: 250px;
+
+}
+
+.scheme .card h1{
+  font-size: 60px;
+  font-family: serif;
+  padding-left: 20px;
+  font-weight: bolder;
+}
+
+.scheme .card p{
+  color: white;
+  font-size: 18px;
+  padding-left: 20px;
+  opacity: 0.8;
+}
+   /* scheme end */
+
+   /* terms start */
+
+   .terms{
+    margin-bottom: 50px;
+   }
+  .terms h1{
+    font-size: 50px;
+    font-family: serif;
+    font-weight: bold;
+    padding-top: 50px;
+  }
+  .terms .card{
+    background-color: black;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    min-height: 250px;
+  
+  }
+
+  .terms .card h1{
+    font-size: 60px;
+    font-family: serif;
+    padding-left: 20px;
+    font-weight: bolder;
+  }
+
+  .terms .card p{
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+    opacity: 0.8;
+  }
+    /* terms end */
+
+    /* form start */
+
+    .form-page{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+.form-page img{
+  height: 400px;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+    /* form end */
+
+    /* contact start */
+.contact{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: black;
+  color: white;
+}
+.contact h2{
+  font-size: 50px;
+  font-family: serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.contact p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+    /* contact end */
