@@ -28,12 +28,60 @@
 
   /* carousel start */
 
+  .carousel-caption{
+    position: absolute;
+    top: 20%;
+    left: 300px;
+    transform: translatex(-50%);
+    color: white;
+    text-align: left;
+}
 
+.carousel-caption h2{
+    padding-left: 400px;
+    font-family: serif;
+    font-weight: bold;
+}
 
-  @media (max-width: 400px){
+.carousel-caption p{
+    padding-left: 400px;
+    padding-top: 10px;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.carousel-caption .subscribe{
+    padding-left: 550px;
+    padding-top: 20px;
+}
+
+  @media (max-width: 576px){
     .carousel{
-      margin-top: 100px;
+      margin-top: 10px;
     }
+
+    .carousel img{
+      min-height: 500px;
+    }
+
+    .carousel-caption h2{
+      font-size: 20px;
+      padding-left: 200px;
+      font-family: serif;
+      font-weight: bold;
+  }
+
+  .carousel-caption p{
+    padding-left: 200px;
+    padding-top: 10px;
+    font-size: 10px;
+    font-family: cursive;
+}
+
+.carousel-caption .subscribe{
+  padding-left: 200px;
+  padding-top: 10px;
+}
 
   }
 
@@ -49,7 +97,7 @@
 
   /* service start */
 .service h1{
-  font-size: 50px;
+  font-size: 60px;
   font-family: serif;
   font-weight: bold;
   padding-top: 50px;
@@ -60,11 +108,12 @@
 }
 
 
-@media (max-width: 300px){
+@media (max-width: 576px){
   .service h1{
-    padding-top: 0;
+    padding-top: 20;
     font-size: 20px;
     font-family: serif;
+    text-align: center;
     font-weight: bold;
   }
 
@@ -79,7 +128,9 @@
 .popular{
   background-image: url(img/Carat-Gallery-BG.jpg);
   background-repeat: no-repeat;
-  
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .popular h1{
@@ -94,7 +145,7 @@
 padding-top: 50px;
 height: 400px;
 width: 100%;
-border-radius: 10px 10px;
+border-radius: 10px;
 }
 
 .popular .populer-item h2{
@@ -104,8 +155,9 @@ border-radius: 10px 10px;
 
 .popular .populer-item a{
   font-size: 25px;
+  margin-bottom: 20px;
 }
-@media (max-width: 300px){
+@media (max-width: 576px){
   .popular h1{
     padding-top: 50px;
     font-size: 25px;
@@ -165,7 +217,7 @@ border-radius: 10px 10px;
 font-size: 20px;
   }
 
-  @media (max-width: 350px){
+  @media (max-width: 576px){
     .enjoy h1{
       padding-top: 100px;
       padding-bottom: 40px;
@@ -197,7 +249,7 @@ font-size: 20px;
   color: black;
  }
 
- @media (max-width: 350px){
+ @media (max-width: 576px){
   .smile h1{
     font-size: 30px;
     font-family: serif;
@@ -244,7 +296,7 @@ font-size: 20px;
   font-size: 20px;
 }
 
-@media (max-width: 350px){
+@media (max-width: 576px){
   .handmade h1{
     padding-top: 50px;
     padding-bottom: 20px;
@@ -279,7 +331,7 @@ font-size: 20px;
   padding-top: 50px;
 }
 
-@media (max-width: 300px){
+@media (max-width: 576px){
   .contact-home h1{
     font-size: 30px;
     font-family: serif;
@@ -353,7 +405,7 @@ font-size: 20px;
     padding-top: 100px;
   }
 
-  @media (max-width: 300px){
+  @media (max-width: 576px){
     .about-bg h1{
       font-size: 20px;
       font-family: serif;
@@ -409,7 +461,7 @@ font-size: 20px;
   padding-bottom: 30px;
 }
 
-@media (max-width: 300px){
+@media (max-width: 576px){
   .propriter h2{
     padding-top: 50px;
     font-size: 30px;
@@ -441,7 +493,7 @@ padding-bottom: 50px;
 opacity: 0.9;
 }
 
-@media (max-width: 300px){
+@media (max-width: 576px){
   .bg-darked h2{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -487,7 +539,7 @@ opacity: 0.9;
   opacity: 0.8;
 }
 
-@media (max-width: 300px){
+@media (max-width: 576px){
   .scheme h1{
     font-size: 30px;
     font-family: serif;
@@ -526,7 +578,7 @@ opacity: 0.9;
     opacity: 0.8;
   }
 
-  @media (max-width: 300px){
+  @media (max-width: 576px){
     .terms h1{
       font-size: 30px;
       font-family: serif;
